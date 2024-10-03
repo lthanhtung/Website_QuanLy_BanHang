@@ -1,0 +1,12 @@
+D:\Website_QuanLy_BanHang\Website_QLy_BanHang\MyClass\bin\Debug\MyClass.dll.config
+D:\Website_QuanLy_BanHang\Website_QLy_BanHang\MyClass\bin\Debug\MyClass.dll
+D:\Website_QuanLy_BanHang\Website_QLy_BanHang\MyClass\bin\Debug\MyClass.pdb
+D:\Website_QuanLy_BanHang\Website_QLy_BanHang\MyClass\bin\Debug\EntityFramework.dll
+D:\Website_QuanLy_BanHang\Website_QLy_BanHang\MyClass\bin\Debug\EntityFramework.SqlServer.dll
+D:\Website_QuanLy_BanHang\Website_QLy_BanHang\MyClass\bin\Debug\EntityFramework.xml
+D:\Website_QuanLy_BanHang\Website_QLy_BanHang\MyClass\bin\Debug\EntityFramework.SqlServer.xml
+D:\Website_QuanLy_BanHang\Website_QLy_BanHang\MyClass\obj\Debug\MyClass.csproj.AssemblyReference.cache
+D:\Website_QuanLy_BanHang\Website_QLy_BanHang\MyClass\obj\Debug\MyClass.csproj.CoreCompileInputs.cache
+D:\Website_QuanLy_BanHang\Website_QLy_BanHang\MyClass\obj\Debug\MyClass.csproj.Up2Date
+D:\Website_QuanLy_BanHang\Website_QLy_BanHang\MyClass\obj\Debug\MyClass.dll
+D:\Website_QuanLy_BanHang\Website_QLy_BanHang\MyClass\obj\Debug\MyClass.pdb

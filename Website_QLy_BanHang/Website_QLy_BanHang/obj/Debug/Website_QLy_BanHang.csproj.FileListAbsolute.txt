@@ -77,3 +77,10 @@ D:\Website_QuanLy_BanHang\Website_QLy_BanHang\Website_QLy_BanHang\obj\Debug\Webs
 D:\Website_QuanLy_BanHang\Website_QLy_BanHang\Website_QLy_BanHang\obj\Debug\Website_.D174C917.Up2Date
 D:\Website_QuanLy_BanHang\Website_QLy_BanHang\Website_QLy_BanHang\obj\Debug\Website_QLy_BanHang.dll
 D:\Website_QuanLy_BanHang\Website_QLy_BanHang\Website_QLy_BanHang\obj\Debug\Website_QLy_BanHang.pdb
+D:\Website_QuanLy_BanHang\Website_QLy_BanHang\Website_QLy_BanHang\bin\EntityFramework.dll
+D:\Website_QuanLy_BanHang\Website_QLy_BanHang\Website_QLy_BanHang\bin\EntityFramework.SqlServer.dll
+D:\Website_QuanLy_BanHang\Website_QLy_BanHang\Website_QLy_BanHang\bin\MyClass.dll
+D:\Website_QuanLy_BanHang\Website_QLy_BanHang\Website_QLy_BanHang\bin\MyClass.pdb
+D:\Website_QuanLy_BanHang\Website_QLy_BanHang\Website_QLy_BanHang\bin\MyClass.dll.config
+D:\Website_QuanLy_BanHang\Website_QLy_BanHang\Website_QLy_BanHang\bin\EntityFramework.xml
+D:\Website_QuanLy_BanHang\Website_QLy_BanHang\Website_QLy_BanHang\bin\EntityFramework.SqlServer.xml
