@@ -22,13 +22,11 @@
                         <div class="col-md-6 text-right">
                             <a href="@Url.Action("Create","Category")" class="btn-sm btn-success"><i class="fa fa-plus"></i> Thêm</a>
                             <a href="@Url.Action("Trash","Category")" class="btn-sm btn-danger"><i class="fa fa-trash"></i> Thùng rác</a>
-
-
                         </div>
                     </div>
                 </div>
                 <div class="card-body">
-
+                @Html.Partial("Message")
                     <table class="table">
                         <tr>
                             <th>ID</th>
@@ -36,7 +34,6 @@
                             <th>@Html.DisplayNameFor(model => model.Slug)</th>
                             <th>@Html.DisplayNameFor(model => model.ParentId)</th>
                             <th>@Html.DisplayNameFor(model => model.Order)</th>
-                            <th>@Html.DisplayNameFor(model => model.Status)</th>
                             <th>Chức năng</th>
                             
                         </tr>
@@ -49,7 +46,6 @@
                                 <td>@Html.DisplayFor(modelItem => item.Slug)</td>
                                 <td>@Html.DisplayFor(modelItem => item.ParentId)</td>
                                 <td>@Html.DisplayFor(modelItem => item.Order)</td>
-                                <td>@Html.DisplayFor(modelItem => item.Status)</td>
                                 <td>
                                     @if (item.Status == 1)
                                     {
