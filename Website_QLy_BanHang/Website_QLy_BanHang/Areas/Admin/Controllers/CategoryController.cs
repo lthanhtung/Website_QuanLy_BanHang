@@ -288,7 +288,7 @@ namespace Website_QLy_BanHang.Areas.Admin.Controllers
                 //thong bao phuc hoi thanh cong
                 TempData["message"] = new XMessage("success", "Phục hồi thành công");
 
-                return RedirectToAction("Index");
+                return RedirectToAction("Trash");
             }
         }
     }

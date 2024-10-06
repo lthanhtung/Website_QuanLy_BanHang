@@ -3,36 +3,24 @@
   "WorkspaceRootPath": "D:\\Website_QuanLy_BanHang\\Website_QLy_BanHang\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9976C993-1E49-4CE1-A6B6-E5BCF4560F8C}|Website_QLy_BanHang\\Website_QLy_BanHang.csproj|d:\\website_quanly_banhang\\website_qly_banhang\\website_qly_banhang\\areas\\admin\\controllers\\suppliercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9976C993-1E49-4CE1-A6B6-E5BCF4560F8C}|Website_QLy_BanHang\\Website_QLy_BanHang.csproj|solutionrelative:website_qly_banhang\\areas\\admin\\controllers\\suppliercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBB2B504-2AF4-4EEC-AAC8-424487182C36}|MyClass\\MyClass.csproj|d:\\website_quanly_banhang\\website_qly_banhang\\myclass\\dao\\suppliersdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBB2B504-2AF4-4EEC-AAC8-424487182C36}|MyClass\\MyClass.csproj|solutionrelative:myclass\\dao\\suppliersdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9976C993-1E49-4CE1-A6B6-E5BCF4560F8C}|Website_QLy_BanHang\\Website_QLy_BanHang.csproj|d:\\website_quanly_banhang\\website_qly_banhang\\website_qly_banhang\\areas\\admin\\views\\supplier\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9976C993-1E49-4CE1-A6B6-E5BCF4560F8C}|Website_QLy_BanHang\\Website_QLy_BanHang.csproj|solutionrelative:website_qly_banhang\\areas\\admin\\views\\supplier\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBB2B504-2AF4-4EEC-AAC8-424487182C36}|MyClass\\MyClass.csproj|d:\\website_quanly_banhang\\website_qly_banhang\\myclass\\model\\suppliers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBB2B504-2AF4-4EEC-AAC8-424487182C36}|MyClass\\MyClass.csproj|solutionrelative:myclass\\model\\suppliers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9976C993-1E49-4CE1-A6B6-E5BCF4560F8C}|Website_QLy_BanHang\\Website_QLy_BanHang.csproj|d:\\website_quanly_banhang\\website_qly_banhang\\website_qly_banhang\\areas\\admin\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9976C993-1E49-4CE1-A6B6-E5BCF4560F8C}|Website_QLy_BanHang\\Website_QLy_BanHang.csproj|solutionrelative:website_qly_banhang\\areas\\admin\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9976C993-1E49-4CE1-A6B6-E5BCF4560F8C}|Website_QLy_BanHang\\Website_QLy_BanHang.csproj|d:\\website_quanly_banhang\\website_qly_banhang\\website_qly_banhang\\areas\\admin\\views\\category\\trash.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9976C993-1E49-4CE1-A6B6-E5BCF4560F8C}|Website_QLy_BanHang\\Website_QLy_BanHang.csproj|solutionrelative:website_qly_banhang\\areas\\admin\\views\\category\\trash.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9976C993-1E49-4CE1-A6B6-E5BCF4560F8C}|Website_QLy_BanHang\\Website_QLy_BanHang.csproj|d:\\website_quanly_banhang\\website_qly_banhang\\website_qly_banhang\\areas\\admin\\views\\category\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9976C993-1E49-4CE1-A6B6-E5BCF4560F8C}|Website_QLy_BanHang\\Website_QLy_BanHang.csproj|solutionrelative:website_qly_banhang\\areas\\admin\\views\\category\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9976C993-1E49-4CE1-A6B6-E5BCF4560F8C}|Website_QLy_BanHang\\Website_QLy_BanHang.csproj|d:\\website_quanly_banhang\\website_qly_banhang\\website_qly_banhang\\areas\\admin\\views\\category\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9976C993-1E49-4CE1-A6B6-E5BCF4560F8C}|Website_QLy_BanHang\\Website_QLy_BanHang.csproj|solutionrelative:website_qly_banhang\\areas\\admin\\views\\category\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9976C993-1E49-4CE1-A6B6-E5BCF4560F8C}|Website_QLy_BanHang\\Website_QLy_BanHang.csproj|D:\\Website_QuanLy_BanHang\\Website_QLy_BanHang\\website_qly_banhang\\areas\\admin\\views\\category\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9976C993-1E49-4CE1-A6B6-E5BCF4560F8C}|Website_QLy_BanHang\\Website_QLy_BanHang.csproj|solutionrelative:website_qly_banhang\\areas\\admin\\views\\category\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9976C993-1E49-4CE1-A6B6-E5BCF4560F8C}|Website_QLy_BanHang\\Website_QLy_BanHang.csproj|D:\\Website_QuanLy_BanHang\\Website_QLy_BanHang\\website_qly_banhang\\areas\\admin\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9976C993-1E49-4CE1-A6B6-E5BCF4560F8C}|Website_QLy_BanHang\\Website_QLy_BanHang.csproj|solutionrelative:website_qly_banhang\\areas\\admin\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DBB2B504-2AF4-4EEC-AAC8-424487182C36}|MyClass\\MyClass.csproj|D:\\Website_QuanLy_BanHang\\Website_QLy_BanHang\\myclass\\dao\\categoriesdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DBB2B504-2AF4-4EEC-AAC8-424487182C36}|MyClass\\MyClass.csproj|solutionrelative:myclass\\dao\\categoriesdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9976C993-1E49-4CE1-A6B6-E5BCF4560F8C}|Website_QLy_BanHang\\Website_QLy_BanHang.csproj|D:\\Website_QuanLy_BanHang\\Website_QLy_BanHang\\website_qly_banhang\\areas\\admin\\views\\category\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9976C993-1E49-4CE1-A6B6-E5BCF4560F8C}|Website_QLy_BanHang\\Website_QLy_BanHang.csproj|solutionrelative:website_qly_banhang\\areas\\admin\\views\\category\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DBB2B504-2AF4-4EEC-AAC8-424487182C36}|MyClass\\MyClass.csproj|D:\\Website_QuanLy_BanHang\\Website_QLy_BanHang\\myclass\\model\\categories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,69 +34,69 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "D:\\Website_QuanLy_BanHang\\Website_QLy_BanHang\\Website_QLy_BanHang\\Areas\\Admin\\Views\\Category\\Delete.cshtml",
-              "RelativeDocumentMoniker": "Website_QLy_BanHang\\Areas\\Admin\\Views\\Category\\Delete.cshtml",
-              "ToolTip": "D:\\Website_QuanLy_BanHang\\Website_QLy_BanHang\\Website_QLy_BanHang\\Areas\\Admin\\Views\\Category\\Delete.cshtml",
-              "RelativeToolTip": "Website_QLy_BanHang\\Areas\\Admin\\Views\\Category\\Delete.cshtml",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAAAC8AAABSAAAA",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Website_QuanLy_BanHang\\Website_QLy_BanHang\\Website_QLy_BanHang\\Areas\\Admin\\Views\\Supplier\\Index.cshtml",
+              "RelativeDocumentMoniker": "Website_QLy_BanHang\\Areas\\Admin\\Views\\Supplier\\Index.cshtml",
+              "ToolTip": "D:\\Website_QuanLy_BanHang\\Website_QLy_BanHang\\Website_QLy_BanHang\\Areas\\Admin\\Views\\Supplier\\Index.cshtml",
+              "RelativeToolTip": "Website_QLy_BanHang\\Areas\\Admin\\Views\\Supplier\\Index.cshtml",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAAAF8AAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-06T08:49:07.368Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "D:\\Website_QuanLy_BanHang\\Website_QLy_BanHang\\Website_QLy_BanHang\\Areas\\Admin\\Views\\Category\\Details.cshtml",
-              "RelativeDocumentMoniker": "Website_QLy_BanHang\\Areas\\Admin\\Views\\Category\\Details.cshtml",
-              "ToolTip": "D:\\Website_QuanLy_BanHang\\Website_QLy_BanHang\\Website_QLy_BanHang\\Areas\\Admin\\Views\\Category\\Details.cshtml",
-              "RelativeToolTip": "Website_QLy_BanHang\\Areas\\Admin\\Views\\Category\\Details.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAD0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-06T08:22:20.108Z",
+              "WhenOpened": "2024-10-06T12:51:32.119Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Trash.cshtml",
-              "DocumentMoniker": "D:\\Website_QuanLy_BanHang\\Website_QLy_BanHang\\Website_QLy_BanHang\\Areas\\Admin\\Views\\Category\\Trash.cshtml",
-              "RelativeDocumentMoniker": "Website_QLy_BanHang\\Areas\\Admin\\Views\\Category\\Trash.cshtml",
-              "ToolTip": "D:\\Website_QuanLy_BanHang\\Website_QLy_BanHang\\Website_QLy_BanHang\\Areas\\Admin\\Views\\Category\\Trash.cshtml",
-              "RelativeToolTip": "Website_QLy_BanHang\\Areas\\Admin\\Views\\Category\\Trash.cshtml",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAACUAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-06T08:19:46.936Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\Website_QuanLy_BanHang\\Website_QLy_BanHang\\Website_QLy_BanHang\\Areas\\Admin\\Views\\Category\\Create.cshtml",
-              "RelativeDocumentMoniker": "Website_QLy_BanHang\\Areas\\Admin\\Views\\Category\\Create.cshtml",
-              "ToolTip": "D:\\Website_QuanLy_BanHang\\Website_QLy_BanHang\\Website_QLy_BanHang\\Areas\\Admin\\Views\\Category\\Create.cshtml",
-              "RelativeToolTip": "Website_QLy_BanHang\\Areas\\Admin\\Views\\Category\\Create.cshtml",
-              "ViewState": "AQIAACEAAAAAAAAAAAAAACAAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-04T07:10:03.94Z",
+              "Title": "SuppliersDAO.cs",
+              "DocumentMoniker": "D:\\Website_QuanLy_BanHang\\Website_QLy_BanHang\\MyClass\\DAO\\SuppliersDAO.cs",
+              "RelativeDocumentMoniker": "MyClass\\DAO\\SuppliersDAO.cs",
+              "ToolTip": "D:\\Website_QuanLy_BanHang\\Website_QLy_BanHang\\MyClass\\DAO\\SuppliersDAO.cs",
+              "RelativeToolTip": "MyClass\\DAO\\SuppliersDAO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T12:02:19.76Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "SupplierController.cs",
+              "DocumentMoniker": "D:\\Website_QuanLy_BanHang\\Website_QLy_BanHang\\Website_QLy_BanHang\\Areas\\Admin\\Controllers\\SupplierController.cs",
+              "RelativeDocumentMoniker": "Website_QLy_BanHang\\Areas\\Admin\\Controllers\\SupplierController.cs",
+              "ToolTip": "D:\\Website_QuanLy_BanHang\\Website_QLy_BanHang\\Website_QLy_BanHang\\Areas\\Admin\\Controllers\\SupplierController.cs",
+              "RelativeToolTip": "Website_QLy_BanHang\\Areas\\Admin\\Controllers\\SupplierController.cs",
+              "ViewState": "AQIAAPUAAAAAAAAAAAAswNYAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T12:00:23.787Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Suppliers.cs",
+              "DocumentMoniker": "D:\\Website_QuanLy_BanHang\\Website_QLy_BanHang\\MyClass\\Model\\Suppliers.cs",
+              "RelativeDocumentMoniker": "MyClass\\Model\\Suppliers.cs",
+              "ToolTip": "D:\\Website_QuanLy_BanHang\\Website_QLy_BanHang\\MyClass\\Model\\Suppliers.cs",
+              "RelativeToolTip": "MyClass\\Model\\Suppliers.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAA/wBUAAACBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T11:36:23.378Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "CategoryController.cs",
               "DocumentMoniker": "D:\\Website_QuanLy_BanHang\\Website_QLy_BanHang\\Website_QLy_BanHang\\Areas\\Admin\\Controllers\\CategoryController.cs",
               "RelativeDocumentMoniker": "Website_QLy_BanHang\\Areas\\Admin\\Controllers\\CategoryController.cs",
               "ToolTip": "D:\\Website_QuanLy_BanHang\\Website_QLy_BanHang\\Website_QLy_BanHang\\Areas\\Admin\\Controllers\\CategoryController.cs",
               "RelativeToolTip": "Website_QLy_BanHang\\Areas\\Admin\\Controllers\\CategoryController.cs",
-              "ViewState": "AQIAAKkAAAAAAAAAAAAAwLsAAAAkAAAA",
+              "ViewState": "AQIAAAUBAAAAAAAAAAAiwCQBAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-03T13:12:18.411Z",
               "EditorCaption": ""
@@ -116,52 +104,15 @@
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Website_QuanLy_BanHang\\Website_QLy_BanHang\\Website_QLy_BanHang\\Areas\\Admin\\Views\\Category\\Index.cshtml",
-              "RelativeDocumentMoniker": "Website_QLy_BanHang\\Areas\\Admin\\Views\\Category\\Index.cshtml",
-              "ToolTip": "D:\\Website_QuanLy_BanHang\\Website_QLy_BanHang\\Website_QLy_BanHang\\Areas\\Admin\\Views\\Category\\Index.cshtml",
-              "RelativeToolTip": "Website_QLy_BanHang\\Areas\\Admin\\Views\\Category\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-03T13:39:16.936Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
               "Title": "Categories.cs",
               "DocumentMoniker": "D:\\Website_QuanLy_BanHang\\Website_QLy_BanHang\\MyClass\\Model\\Categories.cs",
               "RelativeDocumentMoniker": "MyClass\\Model\\Categories.cs",
               "ToolTip": "D:\\Website_QuanLy_BanHang\\Website_QLy_BanHang\\MyClass\\Model\\Categories.cs",
               "RelativeToolTip": "MyClass\\Model\\Categories.cs",
-              "ViewState": "AQIAACAAAAAAAAAAAAAswBsAAAAmAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-05T13:00:03.839Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CategoriesDAO.cs",
-              "DocumentMoniker": "D:\\Website_QuanLy_BanHang\\Website_QLy_BanHang\\MyClass\\DAO\\CategoriesDAO.cs",
-              "RelativeDocumentMoniker": "MyClass\\DAO\\CategoriesDAO.cs",
-              "ToolTip": "D:\\Website_QuanLy_BanHang\\Website_QLy_BanHang\\MyClass\\DAO\\CategoriesDAO.cs",
-              "RelativeToolTip": "MyClass\\DAO\\CategoriesDAO.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAswCgAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T14:25:14.203Z",
+              "WhenOpened": "2024-10-05T13:00:03.839Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "D:\\Website_QuanLy_BanHang\\Website_QLy_BanHang\\Website_QLy_BanHang\\Areas\\Admin\\Views\\Category\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Website_QLy_BanHang\\Areas\\Admin\\Views\\Category\\Edit.cshtml",
-              "ToolTip": "D:\\Website_QuanLy_BanHang\\Website_QLy_BanHang\\Website_QLy_BanHang\\Areas\\Admin\\Views\\Category\\Edit.cshtml",
-              "RelativeToolTip": "Website_QLy_BanHang\\Areas\\Admin\\Views\\Category\\Edit.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-05T13:55:31.903Z"
             }
           ]
         }

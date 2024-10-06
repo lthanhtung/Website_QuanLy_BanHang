@@ -12,6 +12,7 @@ namespace MyClass.Model
     public class Categories
     {
         [Key] //Khoa
+        [Display(Name = "Id")]
         public int Id { get; set; }
         
         [Required(ErrorMessage ="Tên loại sản phẩm không để trống")] // Bat buoc
