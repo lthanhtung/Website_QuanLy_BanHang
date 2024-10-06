@@ -154,12 +154,16 @@ namespace Website_QLy_BanHang.Areas.Admin.Controllers
         {
             if (id == null)
             {
-                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+                //Thong bao that bai
+                TempData["message"] = new XMessage("danger", "Xóa loại sản phẩm thất bại");
+                return RedirectToAction("Index");
             }
             Categories categories = categoriesDAO.getRow(id);
             if (categories == null)
             {
-                return HttpNotFound();
+                //Thong bao that bai
+                TempData["message"] = new XMessage("danger", "Xóa loại sản phẩm thất bại");
+                return RedirectToAction("Index");
             }
             return View(categories);
         }
@@ -171,8 +175,9 @@ namespace Website_QLy_BanHang.Areas.Admin.Controllers
         {
             Categories categories =categoriesDAO.getRow(id);
             categoriesDAO.Delete(categories);
-            
-            return RedirectToAction("Index");
+            //Thong bao thành công
+            TempData["message"] = new XMessage("success", "Xóa loại sản phẩm thành công");
+            return RedirectToAction("Trash");
         }
         ///////////////////////////////////////////////////////////////////////////////////////////////
         // GET: Admin/Category/Status/5
@@ -192,7 +197,7 @@ namespace Website_QLy_BanHang.Areas.Admin.Controllers
                 TempData["message"] = new XMessage("danger", "Cập nhập trạng thái thất bại");
                 return RedirectToAction("Index");
             }
-            else
+            else 
             {         
                 // Chuyen Doi Trang Thai cua Status tu 1 <-> 2
                 categories.Status = (categories.Status == 1) ? 2 : 1;
@@ -208,8 +213,83 @@ namespace Website_QLy_BanHang.Areas.Admin.Controllers
 
                 return RedirectToAction("Index");
             }
+        }
+        // GET: Admin/Category/DelTrash/5
+        public ActionResult DelTrash(int? id)
+        {
+            if (id == null)
+            {
+                //Thong bao that bai
+                TempData["message"] = new XMessage("danger", "Không tìm thấy loại sản phẩm");
+                return RedirectToAction("Index");
+            }
+            // Truy van id
+            Categories categories = categoriesDAO.getRow(id);
+            if (categories == null)
+            {
+                //Thong bao that bai
+                TempData["message"] = new XMessage("danger", "Không tìm thấy loại sản phẩm");
+                return RedirectToAction("Index");
+            }
+            else
+            {
+                // Chuyen Doi Trang Thai cua Status tu 1 2 <-> 0 : Khong hien thi tren index
+                categories.Status = 0;
 
-            
+                //Cap nhap gia tri UpdateAt
+                categories.UpdateAt = DateTime.Now;
+
+                //Cap nhap lai DB
+                categoriesDAO.Update(categories);
+
+                //thong bao thanh cong
+                TempData["message"] = new XMessage("success", "Xóa thành công loại sản phẩm");
+
+                return RedirectToAction("Index");
+            }
+        }
+
+        //Trash
+        // GET: Admin/Category/Trash
+        public ActionResult Trash()
+        {
+            return View(categoriesDAO.getList("Trash"));
+        }
+
+        //Recover
+        // GET: Admin/Category/Recover/5
+        public ActionResult Recover(int? id)
+        {
+            if (id == null)
+            {
+                //Thong bao that bai
+                TempData["message"] = new XMessage("danger", "Phục hồi thất bại");
+                return RedirectToAction("Index");
+            }
+            // Truy van id
+            Categories categories = categoriesDAO.getRow(id);
+            if (categories == null)
+            {
+                //Thong bao that bai
+                TempData["message"] = new XMessage("danger", "Phục hồi thất bại");
+                return RedirectToAction("Index");
+            }
+            else
+            {
+                // Chuyen Doi Trang Thai cua Status tu 0 <-> 2: khong xuat ban
+                categories.Status = 2;
+
+                //Cap nhap gia tri UpdateAt
+                categories.UpdateAt = DateTime.Now;
+
+                //Cap nhap lai DB
+                categoriesDAO.Update(categories);
+
+                //thong bao phuc hoi thanh cong
+                TempData["message"] = new XMessage("success", "Phục hồi thành công");
+
+                return RedirectToAction("Index");
+            }
         }
     }
 }
