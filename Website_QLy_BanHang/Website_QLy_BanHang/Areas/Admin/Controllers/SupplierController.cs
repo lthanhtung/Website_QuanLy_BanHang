@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Data;
 using System.Data.Entity;
+using System.IO;
 using System.Linq;
 using System.Net;
 using System.Web;
@@ -73,6 +74,25 @@ namespace Website_QLy_BanHang.Areas.Admin.Controllers
                 }
                 //Xu Ly tu dong Slug
                 suppliers.Slug = XString.Str_Slug(suppliers.Name);
+
+                //xu ly cho phan upload hình ảnh
+                var img = Request.Files["img"];//lay thong tin file
+                if (img.ContentLength != 0)
+                {
+                    string[] FileExtentions = new string[] { ".jpg", ".jpeg", ".png", ".gif" };
+                    //kiem tra tap tin co hay khong
+                    if (FileExtentions.Contains(img.FileName.Substring(img.FileName.LastIndexOf("."))))//lay phan mo rong cua tap tin
+                    {
+                        string slug = suppliers.Slug;
+                        //ten file = Slug + phan mo rong cua tap tin
+                        string imgName = slug + "-" + suppliers.Id  + img.FileName.Substring(img.FileName.LastIndexOf("."));
+                        suppliers.Image = imgName;
+                        //upload hinh
+                        string PathDir = "~/Public/img/supplier/";
+                        string PathFile = Path.Combine(Server.MapPath(PathDir), imgName);
+                        img.SaveAs(PathFile);
+                    }
+                }//ket thuc phan upload hinh anh
 
                 //Them mau tin vao db
                 suppliersDAO.Insert(suppliers);
