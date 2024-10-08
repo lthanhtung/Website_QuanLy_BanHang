@@ -5,6 +5,7 @@ using System.Data.Entity;
 using System.IO;
 using System.Linq;
 using System.Net;
+using System.Runtime.InteropServices.ComTypes;
 using System.Web;
 using System.Web.Mvc;
 using MyClass.DAO;
@@ -85,7 +86,7 @@ namespace Website_QLy_BanHang.Areas.Admin.Controllers
                     {
                         string slug = suppliers.Slug;
                         //ten file = Slug + phan mo rong cua tap tin
-                        string imgName = slug + "-" + suppliers.Id  + img.FileName.Substring(img.FileName.LastIndexOf("."));
+                        string imgName = slug + img.FileName.Substring(img.FileName.LastIndexOf("."));
                         suppliers.Image = imgName;
                         //upload hinh
                         string PathDir = "~/Public/img/supplier/";
@@ -144,6 +145,38 @@ namespace Website_QLy_BanHang.Areas.Admin.Controllers
                 }
                 //Xu Ly tu dong Slug
                 suppliers.Slug = XString.Str_Slug(suppliers.Name);
+
+                var img = Request.Files["img"];//lay thong tin file
+                string PathDir = "~/Public/img/supplier/";
+                if (img.ContentLength != 0 && suppliers.Image != null) // ton tai mot logo cua Nha cung cap
+                {
+                    //xoa anh cu
+                    string DelPath = Path.Combine(Server.MapPath(PathDir), suppliers.Image);
+                    System.IO.File.Delete(DelPath);
+                }
+                //Upload logo moi cua nha cung ca
+                //Truoc khi cap nhap lai anh moi thi xoa anh cu
+               
+
+                //xu ly cho phan upload hình ảnh
+                
+                if (img.ContentLength != 0)
+                {
+                    string[] FileExtentions = new string[] { ".jpg", ".jpeg", ".png", ".gif" };
+                    //kiem tra tap tin co hay khong
+                    if (FileExtentions.Contains(img.FileName.Substring(img.FileName.LastIndexOf("."))))//lay phan mo rong cua tap tin
+                    {
+                        string slug = suppliers.Slug;
+                        //ten file = Slug + phan mo rong cua tap tin
+                        string imgName = slug + img.FileName.Substring(img.FileName.LastIndexOf("."));
+                        suppliers.Image = imgName;
+                        //upload hinh
+                       
+                        string PathFile = Path.Combine(Server.MapPath(PathDir), imgName);
+                        img.SaveAs(PathFile);
+                    }
+                }//ket thuc phan upload hinh anh
+
                 //Cap nhap mau tin
                 suppliersDAO.Update(suppliers);
                 //Thong bao thanh cong
@@ -176,6 +209,16 @@ namespace Website_QLy_BanHang.Areas.Admin.Controllers
         public ActionResult DeleteConfirmed(int id)
         {
             Suppliers suppliers =suppliersDAO.getRow(id); // tim kiem 1 mau tin co Id = Id
+
+            var img = Request.Files["img"];//lay thong tin file
+            string PathDir = "~/Public/img/supplier/";
+            if (img.ContentLength != 0 && suppliers.Image != null) // ton tai mot logo cua Nha cung cap
+            {
+                //xoa anh cu
+                string DelPath = Path.Combine(Server.MapPath(PathDir), suppliers.Image);
+                System.IO.File.Delete(DelPath);
+            }
+
             //Thong bao thanh cong
             TempData["message"] = new XMessage("success", "Xóa nhà cung cấp thành công");
             return RedirectToAction("Index");
