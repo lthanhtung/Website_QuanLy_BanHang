@@ -212,14 +212,17 @@ namespace Website_QLy_BanHang.Areas.Admin.Controllers
 
             var img = Request.Files["img"];//lay thong tin file
             string PathDir = "~/Public/img/supplier/";
-            if (img.ContentLength != 0 && suppliers.Image != null) // ton tai mot logo cua Nha cung cap
+            //Xoa au tin ra khoi db
+            if (suppliersDAO.Delete(suppliers) == 1)
             {
-                //xoa anh cu
-                string DelPath = Path.Combine(Server.MapPath(PathDir), suppliers.Image);
-                System.IO.File.Delete(DelPath);
+                //Xu ly cho muc xoa hinh anh
+                if (suppliers.Image != null)
+                {
+                    string DelPath = Path.Combine(Server.MapPath(PathDir), suppliers.Image);
+                    System.IO.File.Delete(DelPath);
+                }
             }
-
-            //Thong bao thanh cong
+            //Thong bao xoa thanh cong
             TempData["message"] = new XMessage("success", "Xóa nhà cung cấp thành công");
             return RedirectToAction("Index");
         }
