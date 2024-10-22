@@ -14,29 +14,42 @@ namespace MyClass.Model
         [Key] //Khoa
         public int Id { get; set; }
 
-        [Required] // Bat buoc
+        [Required(ErrorMessage ="Tên menu không được để trống")]
         public string Name { get; set; }
 
+        [Display(Name ="Bảng dữ liệu")]
         public int? TableId { get; set; }
-
+        
+        [Display(Name ="Kiểu menu")]
         public string TypeMenu { get; set; }
-
+        
+        [Display(Name ="Vị trí")]
         public string Position { get; set; }
         
+        [Display(Name = "URL")]
         public string Link { get; set; }
-
+        
+        [Display(Name = "Cấp cha")]
         public int? ParentId { get; set; }
-
+        
+        [Display(Name = "Sắp xếp")]
         public int? Order { get; set; }
-
+        
+        [Required(ErrorMessage = "Người tạo không được để trống")]
+        [Display(Name ="Người tạo")]
         public int CreateBy { get; set; }
-
+        
+        [Required(ErrorMessage = "Ngày tạo không được để trống")]
+        [Display(Name = "Ngày tạo")]
         public DateTime CreateAt { get; set; }
 
+        [Display(Name = "Người cập nhập")]
         public int UpdateBy { get; set; }
-
+    
+        [Display(Name = "Người tạo")]
         public DateTime UpdateAt { get; set; }
 
+        [Display(Name ="Trạng thái")]
         public int Status { get; set; }
     }
 }
