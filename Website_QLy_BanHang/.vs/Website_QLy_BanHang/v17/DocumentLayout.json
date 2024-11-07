@@ -1,71 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Website_QuanLy_BanHang\\Website_QLy_BanHang\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{9976C993-1E49-4CE1-A6B6-E5BCF4560F8C}|Website_QLy_BanHang\\Website_QLy_BanHang.csproj|d:\\website_quanly_banhang\\website_qly_banhang\\website_qly_banhang\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9976C993-1E49-4CE1-A6B6-E5BCF4560F8C}|Website_QLy_BanHang\\Website_QLy_BanHang.csproj|solutionrelative:website_qly_banhang\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DBB2B504-2AF4-4EEC-AAC8-424487182C36}|MyClass\\MyClass.csproj|d:\\website_quanly_banhang\\website_qly_banhang\\myclass\\model\\menus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DBB2B504-2AF4-4EEC-AAC8-424487182C36}|MyClass\\MyClass.csproj|solutionrelative:myclass\\model\\menus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DBB2B504-2AF4-4EEC-AAC8-424487182C36}|MyClass\\MyClass.csproj|d:\\website_quanly_banhang\\website_qly_banhang\\myclass\\model\\topics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DBB2B504-2AF4-4EEC-AAC8-424487182C36}|MyClass\\MyClass.csproj|solutionrelative:myclass\\model\\topics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Global.asax.cs",
-              "DocumentMoniker": "D:\\Website_QuanLy_BanHang\\Website_QLy_BanHang\\Website_QLy_BanHang\\Global.asax.cs",
-              "RelativeDocumentMoniker": "Website_QLy_BanHang\\Global.asax.cs",
-              "ToolTip": "D:\\Website_QuanLy_BanHang\\Website_QLy_BanHang\\Website_QLy_BanHang\\Global.asax.cs",
-              "RelativeToolTip": "Website_QLy_BanHang\\Global.asax.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T12:44:31.337Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Menus.cs",
-              "DocumentMoniker": "D:\\Website_QuanLy_BanHang\\Website_QLy_BanHang\\MyClass\\Model\\Menus.cs",
-              "RelativeDocumentMoniker": "MyClass\\Model\\Menus.cs",
-              "ToolTip": "D:\\Website_QuanLy_BanHang\\Website_QLy_BanHang\\MyClass\\Model\\Menus.cs",
-              "RelativeToolTip": "MyClass\\Model\\Menus.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAA3wDEAAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T12:43:25.245Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Topics.cs",
-              "DocumentMoniker": "D:\\Website_QuanLy_BanHang\\Website_QLy_BanHang\\MyClass\\Model\\Topics.cs",
-              "RelativeDocumentMoniker": "MyClass\\Model\\Topics.cs",
-              "ToolTip": "D:\\Website_QuanLy_BanHang\\Website_QLy_BanHang\\MyClass\\Model\\Topics.cs",
-              "RelativeToolTip": "MyClass\\Model\\Topics.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T12:43:18.745Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }
