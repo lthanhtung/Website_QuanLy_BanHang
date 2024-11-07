@@ -17,5 +17,15 @@ namespace Website_QLy_BanHang
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
         }
+        //Tao moi Session
+        protected void Session_Start()
+        {
+            //Luu Ma nguoi dang nhap quan ly
+            Session["UserID"] = "1";
+            //Gio hang
+            Session["MyCart"] = "";//khoi tao gia tri = NULL
+            //Luu Thong tin dang nhap cua nguoi dung
+            Session["UserCustomer"] = "";
+        }
     }
 }
