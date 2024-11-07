@@ -22,7 +22,7 @@ namespace MyClass.Model
 
         public string Detail { get; set; }
 
-        public string img { get; set; }
+        public string Image { get; set; }
         public string PostType { get; set; }
 
         [Required]
@@ -35,9 +35,9 @@ namespace MyClass.Model
 
         public DateTime CreateAt { get; set; }
 
-        public int UpdateBy { get; set; }
+        public int? UpdateBy { get; set; }
 
-        public DateTime UpdateAt { get; set; }
+        public DateTime? UpdateAt { get; set; }
 
         public int Status { get; set; }
 
