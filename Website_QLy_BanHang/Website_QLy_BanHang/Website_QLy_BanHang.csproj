@@ -135,7 +135,11 @@
     <Compile Include="Areas\Admin\Controllers\PostController.cs" />
     <Compile Include="Areas\Admin\Controllers\ProductController.cs" />
     <Compile Include="Areas\Admin\Controllers\SupplierController.cs" />
+    <Compile Include="Controllers\GiohangController.cs" />
+    <Compile Include="Controllers\KhachhangController.cs" />
+    <Compile Include="Controllers\LienheController.cs" />
     <Compile Include="Controllers\SiteController.cs" />
+    <Compile Include="Controllers\TimkiemController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -2727,6 +2731,10 @@
     <Folder Include="Public\img\page\" />
     <Folder Include="Public\img\post\" />
     <Folder Include="Public\img\supplier\" />
+    <Folder Include="Views\Contact\" />
+    <Folder Include="Views\Giohang\" />
+    <Folder Include="Views\Khachhang\" />
+    <Folder Include="Views\Timkiem\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap.rtl.min.css.map" />

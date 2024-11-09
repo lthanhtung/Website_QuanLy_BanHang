@@ -3,23 +3,15 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
-using MyClass.Model;
 
 namespace Website_QLy_BanHang.Controllers
 {
-    public class SiteController : Controller
+    public class LienheController : Controller
     {
-        // GET: Site
+        // GET: Contact
         public ActionResult Index()
         {
-           
             return View();
         }
-        //Site/Product
-        public ActionResult Product()
-        {
-            return View("Product");
-        }
-
     }
 }
