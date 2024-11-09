@@ -14,7 +14,6 @@ namespace MyClass.Model
         [Key] //Khoa
         public int Id { get; set; }
 
-        public string Name { get; set; }
 
         [Display(Name ="URL")]
         public string Slug { get; set; }
