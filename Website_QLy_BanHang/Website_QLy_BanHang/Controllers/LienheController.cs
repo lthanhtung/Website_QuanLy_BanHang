@@ -8,7 +8,7 @@ namespace Website_QLy_BanHang.Controllers
 {
     public class LienheController : Controller
     {
-        // GET: Contact
+        // GET: Lienhe
         public ActionResult Index()
         {
             return View();
